@@ -1,2 +1,2 @@
-# eksintf
-Mini EKS centered projects on AWS
+# Elastic Kubernetes Service in Terraform
+Mini kubernetes centered projects deployed using Teraform on AWS
