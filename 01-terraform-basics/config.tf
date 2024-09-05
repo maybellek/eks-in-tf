@@ -1,0 +1,16 @@
+# Terraform Settings Block
+terraform {
+    required_version = ">= 1.9.3"
+    required_providers {
+        aws = {
+        source  = "hashicorp/aws"
+        version = "~> 5.60.0" 
+        }
+    }
+}
+
+# Provider Block
+provider "aws" {
+  profile = "default" 
+  region  = var.aws_region
+}
